@@ -16,7 +16,7 @@ public class Practice1 {
         }
         int ref = arr[begin];
         int i = end;
-        int j = begin + 1;
+        int j = begin;
         int tmp = 0;
         a:while (i > j) {
             if (arr[i] < ref) {
