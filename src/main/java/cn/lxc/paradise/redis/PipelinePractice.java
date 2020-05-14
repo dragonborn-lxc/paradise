@@ -7,19 +7,8 @@ import redis.clients.jedis.Pipeline;
 
 import java.util.UUID;
 
-/**
- * File Name: PipelinePractice
- * General Description: Copyright and file header.
- * Revision History:
- * Modification
- * Author                Date(MM/DD/YYYY)   JiraID           Description of Changes
- * ---------------------   ------------    ----------     -----------------------------
- * Le xing chen            2020/4/23
- */
 public class PipelinePractice {
 
-	// 并发线程数
-	private static final int threadNum = 50;
 	// pipeline大小
 	private static final int batchSize = 20;
 	// 每个任务处理任务数
